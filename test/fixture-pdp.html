@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fixture PDP</title>
+<style>
+  body{margin:0;font-family:Arial;padding-bottom:80px}
+  header{height:60px;background:#004797;color:#fff;display:flex;align-items:center;padding:0 16px}
+  header input{margin-left:auto;padding:8px;width:40%}
+  .pdp{display:grid;grid-template-columns:1fr;gap:16px;padding:16px;position:relative}
+  .gallery{background:#eee;height:360px;position:relative}
+  .thumbs{display:flex;gap:8px;margin-top:8px}
+  .thumbs div{width:80px;height:80px;background:#334155;border-radius:8px}
+  .info h1{font-size:22px;margin:0 0 8px}
+  .old{text-decoration:line-through;color:#888}
+  .price{font-size:28px;color:#e85d2a;font-weight:bold}
+  .cta{display:block;width:100%;padding:14px;background:#e85d2a;color:#fff;border:0;font-size:18px;margin-top:12px}
+  nav.bottom{position:fixed;bottom:0;left:0;right:0;height:64px;background:#f1f5f9;display:flex;justify-content:space-around;align-items:center}
+  /* Produktkarte mit aufgespanntem transparentem Link (darf KEIN Fehlalarm sein) */
+  .card{position:relative;margin:16px;padding:16px;border:1px solid #ddd}
+  .card a.stretch{position:absolute;inset:0}
+  /* === Der Black-Days-Fehler: im Querformat 800–1000px wird die Thumb-Leiste absolut
+         links neben die Galerie gelegt und überlagert die Info-Spalte === */
+  @media (min-width:800px) and (max-width:1000px) and (orientation:landscape){
+    .pdp{grid-template-columns:1fr}
+    .thumbs{position:absolute;left:16px;top:16px;flex-direction:column;height:1000px;background:#fff;padding:0 8px;z-index:5}
+    .thumbs div{width:170px;height:170px}
+  }
+  /* Black-Days-Sticker, der auf Desktop seitlich überläuft */
+  .bd-sticker{position:absolute;right:-60px;top:80px;width:140px;height:40px;background:#000;color:#ff0;text-align:center;line-height:40px}
+  @media (max-width:1300px){.bd-sticker{display:none}}
+</style></head>
+<body>
+<header>ALKOSTO <input type="search" placeholder="Buscar productos"></header>
+<div class="pdp">
+  <div class="gallery">Bild<div class="thumbs"><div></div><div></div><div></div><div></div><div></div></div></div>
+  <div class="info">
+    <h1>Nevera MABE No Frost 400 Litros Brutos RMP400FHUB Negra con dispensador</h1>
+    <div>★★★★☆ (24)</div>
+    <div class="old">$2.199.900</div>
+    <div class="price">$1.399.900</div>
+    <button class="cta">Agregar al carrito</button>
+  </div>
+</div>
+<div class="card"><h3>Producto relacionado</h3><p>$899.900</p><a class="stretch" href="#"></a></div>
+<div style="height:600px"></div>
+<div class="bd-sticker">BLACK DAYS</div>
+<nav class="bottom"><span>Mi cuenta</span><span>Buscar</span><span>Categorías</span><span>Mi carrito</span><span>Más</span></nav>
+</body></html>

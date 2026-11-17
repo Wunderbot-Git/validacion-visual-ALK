@@ -1,0 +1,17 @@
+{
+  "name": "alkosto-visual-check",
+  "version": "1.0.0",
+  "description": "Tägliche visuelle Prüfung der wichtigsten Alkosto-Seiten in vielen Auflösungen (Black Days)",
+  "main": "check.js",
+  "scripts": {
+    "check": "node check.js",
+    "test": "node test/run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "playwright": "^1.65.1",
+    "pngjs": "^7.0.0"
+  }
+}

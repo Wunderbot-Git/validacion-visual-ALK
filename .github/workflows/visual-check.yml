@@ -1,0 +1,51 @@
+name: Visual Check Black Days
+
+on:
+  schedule:
+    # 05:47 und 12:47 Bogotá (UTC-5)
+    - cron: '47 10 * * *'
+    - cron: '47 17 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Filter (Regex auf "Seite Auflösung"), z. B. PDP|quer'
+        required: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium webkit
+
+      # Screenshots vom letzten Lauf als Vergleichsbasis
+      - uses: actions/cache/restore@v4
+        with:
+          path: baseline
+          key: baseline-${{ github.run_id }}
+          restore-keys: baseline-
+
+      - name: Run checks
+        env:
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          USER_AGENT: ${{ vars.USER_AGENT }}
+          REPORT_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ONLY: ${{ inputs.only }}
+        run: node check.js
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: baseline
+          key: baseline-${{ github.run_id }}
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visual-check-report
+          path: report
+          retention-days: 14
