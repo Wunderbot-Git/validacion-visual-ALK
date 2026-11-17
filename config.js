@@ -24,7 +24,8 @@ module.exports = {
     { name: 'PLP Portátiles', type: 'plp', url: 'https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS' }, // 5.601
 
     // PDPs – Top-Produkte, bewusst verschiedene Kategorien/Template-Varianten
-    { name: 'PDP Freidora Universal', type: 'pdp', url: 'https://www.alkosto.com/freidora-aire-universal-35-litros-easyfryer-pro-negra/p/7702561857293' }, // 8.753
+    // Freidora Universal (8.753 Views) am 17.11. ausverkauft -> nächstes Top-Produkt
+    { name: 'PDP Olla Hamilton Beach', type: 'pdp', url: 'https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240' }, // 2.688
     { name: 'PDP Honor Play 20', type: 'pdp', url: 'https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339' },                       // 3.644
     { name: 'PDP TV Kalley 55', type: 'pdp', url: 'https://www.alkosto.com/tv-kalley-55-pulgadas-139-cm-55sb300-4k-uhd-smart-tv-linux/p/7705946480031' },  // 3.203
     { name: 'PDP Redmi Note 17 Pro', type: 'pdp', url: 'https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549' }, // 2.843
