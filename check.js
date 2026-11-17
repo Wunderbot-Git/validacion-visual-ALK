@@ -173,6 +173,19 @@ const sev = (i) => ({ high: 0, medium: 1, low: 2 }[i.severity] ?? 3);
   writeReport(path.join(OUT, 'index.html'), summary, results, config);
   for (const r of results) if (r.shots.top) fs.copyFileSync(path.join(OUT, r.shots.top), path.join(BASELINE, `${r.key}__top.png`));
 
+  // Befunde im Log und (auf GitHub) als Lauf-Zusammenfassung
+  const lines = [];
+  for (const r of results) for (const i of r.issues.filter((x) => x.severity !== 'low')) {
+    lines.push(`| ${i.severity === 'high' ? '🔴' : '🟠'} | ${r.page} | ${r.viewport} | ${i.message.replace(/\|/g, '/')} |`);
+  }
+  console.log('\nBefunde:\n' + lines.join('\n'));
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+      `## Visual Check: ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig\n\n` +
+      `Report mit Screenshots: Artefakt *visual-check-report* unten auf dieser Seite.\n\n` +
+      `| | Seite | Auflösung | Befund |\n|---|---|---|---|\n${lines.slice(0, 300).join('\n')}\n`);
+  }
+
   console.log(`\nFertig: ${summary.checks} Checks · ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig`);
   console.log(`Report: ${path.join(OUT, 'index.html')}`);
 
