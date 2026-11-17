@@ -141,24 +141,36 @@ const sev = (i) => ({ high: 0, medium: 1, low: 2 }[i.severity] ?? 3);
   const byEngine = {};
   for (const vp of config.viewports) (byEngine[vp.engine] = byEngine[vp.engine] || []).push(vp);
 
-  for (const [engineName, vps] of Object.entries(byEngine)) {
+  // Engines parallel (Chromium und WebKit gleichzeitig), Seiten je Engine nacheinander
+  await Promise.all(Object.entries(byEngine).map(async ([engineName, vps]) => {
     let browser;
     try {
       browser = await engines[engineName].launch(launchOpts(engineName));
     } catch (e) {
       console.warn(`⚠ ${engineName} nicht verfügbar (${e.message.split('\n')[0]}) – übersprungen`);
-      continue;
+      return;
     }
     for (const p of config.pages) for (const vp of vps) {
       if (ONLY && !ONLY.test(`${p.name} ${vp.name}`)) continue;
-      process.stdout.write(`→ ${p.name} @ ${vp.name} … `);
       const r = await checkOne(browser, p, vp);
       const h = r.issues.filter((i) => i.severity === 'high').length;
-      console.log(r.issues.length ? `${r.issues.length} Befund(e)${h ? `, ${h} kritisch` : ''}` : 'ok');
+      console.log(`→ ${p.name} @ ${vp.name} … ${r.issues.length ? `${r.issues.length} Befund(e)${h ? `, ${h} kritisch` : ''}` : 'ok'}`);
       results.push(r);
     }
     await browser.close();
-  }
+  }));
+  // stabile Reihenfolge wie in config.js
+  const order = (r) => config.pages.findIndex((p) => p.name === r.page) * 100 + config.viewports.findIndex((v) => v.name === r.viewport);
+  results.sort((a, b) => order(a) - order(b));
+
+  // Neu vs. bekannt: Vergleich mit den Befunden des letzten Laufs
+  const FINDINGS = path.join(BASELINE, 'findings.json');
+  const prev = fs.existsSync(FINDINGS) ? new Set(JSON.parse(fs.readFileSync(FINDINGS, 'utf8'))) : null;
+  const fkey = (r, i) => `${r.key}|${i.type}|${i.label}|${i.coveredBy || ''}`;
+  for (const r of results) for (const i of r.issues) i.isNew = prev ? !prev.has(fkey(r, i)) : true;
+  const checkedKeys = new Set(results.map((r) => r.key));
+  const keep = prev ? [...prev].filter((k) => !checkedKeys.has(k.split('|')[0])) : [];
+  fs.writeFileSync(FINDINGS, JSON.stringify([...keep, ...results.flatMap((r) => r.issues.map((i) => fkey(r, i)))]));
 
   // Ergebnis + Baseline aktualisieren
   const summary = {
@@ -168,6 +180,9 @@ const sev = (i) => ({ high: 0, medium: 1, low: 2 }[i.severity] ?? 3);
     high: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'high').length, 0),
     medium: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'medium').length, 0),
     low: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'low').length, 0),
+    newHigh: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'high' && i.isNew).length, 0),
+    newMedium: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'medium' && i.isNew).length, 0),
+    firstRun: !prev,
   };
   fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ summary, results }, null, 2));
   writeReport(path.join(OUT, 'index.html'), summary, results, config);
@@ -176,26 +191,26 @@ const sev = (i) => ({ high: 0, medium: 1, low: 2 }[i.severity] ?? 3);
   // Befunde im Log und (auf GitHub) als Lauf-Zusammenfassung
   const lines = [];
   for (const r of results) for (const i of r.issues.filter((x) => x.severity !== 'low')) {
-    lines.push(`| ${i.severity === 'high' ? '🔴' : '🟠'} | ${r.page} | ${r.viewport} | ${i.message.replace(/\|/g, '/')} |`);
+    lines.push(`| ${i.severity === 'high' ? '🔴' : '🟠'}${i.isNew && !summary.firstRun ? ' 🆕' : ''} | ${r.page} | ${r.viewport} | ${i.message.replace(/\|/g, '/')} |`);
   }
   console.log('\nBefunde:\n' + lines.join('\n'));
   if (process.env.GITHUB_STEP_SUMMARY) {
     fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
-      `## Visual Check: ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig\n\n` +
+      `## Visual Check: ${summary.newHigh} neue kritische · ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig\n\n` +
       `Report mit Screenshots: Artefakt *visual-check-report* unten auf dieser Seite.\n\n` +
       `| | Seite | Auflösung | Befund |\n|---|---|---|---|\n${lines.slice(0, 300).join('\n')}\n`);
   }
 
-  console.log(`\nFertig: ${summary.checks} Checks · ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig`);
+  console.log(`\nFertig: ${summary.checks} Checks · ${summary.newHigh} NEUE kritische · ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig`);
   console.log(`Report: ${path.join(OUT, 'index.html')}`);
 
-  // Alarm an n8n (nur bei kritischen Befunden, außer ALERT_ALWAYS=1)
-  if (WEBHOOK && (summary.high > 0 || process.env.ALERT_ALWAYS === '1')) {
+  // Alarm an n8n: nur bei NEUEN kritischen Befunden (bekannte stehen im Report), ALERT_ALWAYS=1 erzwingt
+  if (WEBHOOK && (summary.newHigh > 0 || process.env.ALERT_ALWAYS === '1')) {
     const payload = {
       source: 'alkosto-visual-check',
       summary,
       reportUrl: REPORT_URL,
-      issues: results.flatMap((r) => r.issues.filter((i) => i.severity === 'high').map((i) => ({
+      issues: results.flatMap((r) => r.issues.filter((i) => i.severity === 'high' && i.isNew).map((i) => ({
         page: r.page, url: r.url, viewport: `${r.viewport} (${r.size})`, type: i.type, message: i.message,
       }))).slice(0, 40),
     };

@@ -23,7 +23,8 @@ Transparente Overlays (z. B. aufgespannte Links über Produktkarten) zählen nic
 
 - `report/index.html`: Raster Seite × Auflösung, Befunde mit rot markierten Screenshots
 - `report/results.json`: maschinenlesbar
-- n8n-Webhook (nur bei kritischen Befunden): `POST` mit `{ source, summary, reportUrl, issues[] }`
+- n8n-Webhook nur bei **neuen** kritischen Befunden (Vergleich mit dem letzten Lauf): `POST` mit `{ source, summary, reportUrl, issues[] }`. Bekannte Befunde stehen weiter im Report (ohne „NEU“-Markierung), lösen aber keinen erneuten Alarm aus.
+- Auf GitHub zusätzlich als Tabelle in der Lauf-Zusammenfassung (🆕 = neu).
 
 ## Einrichten (GitHub Actions)
 
@@ -46,7 +47,7 @@ ONLY="PDP.*quer" node check.js        # nur ein Teil
 npm test                               # Selbsttest gegen nachgebaute Fehlerseite
 ```
 
-Umgebungsvariablen: `N8N_WEBHOOK_URL`, `REPORT_URL`, `USER_AGENT`, `ONLY`, `ALERT_ALWAYS=1` (Webhook auch ohne Befunde), `FAIL_ON_HIGH=1` (Exit-Code 1 bei kritischen Befunden), `CHROME_PATH`, `OUT_DIR`, `BASELINE_DIR`, `CONFIG`.
+Umgebungsvariablen: `N8N_WEBHOOK_URL`, `REPORT_URL`, `USER_AGENT`, `ONLY`, `ALERT_ALWAYS=1` (Webhook auch ohne neue Befunde), `FAIL_ON_HIGH=1` (Exit-Code 1 bei kritischen Befunden), `CHROME_PATH`, `OUT_DIR`, `BASELINE_DIR`, `CONFIG`.
 
 ## Grenzen
 

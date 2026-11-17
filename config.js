@@ -13,7 +13,7 @@ module.exports = {
 
     // Black-Days-/Angebots-Landings (Views am 16.11.)
     { name: 'Ofertas', type: 'plp', url: 'https://www.alkosto.com/ofertas/c/ofertas' },                        // 17.682
-    { name: 'Black Days', type: 'plp', url: 'https://www.alkosto.com/temporadas/blackdays/c/blackdays' },       //  8.732
+    { name: 'Black Days', type: 'landing', url: 'https://www.alkosto.com/temporadas/blackdays/c/blackdays' },       //  8.732 (z. Zt. Teaser-Seite ohne Produkte -> 'landing'; auf 'plp' stellen, sobald Produkte drauf sind)
     { name: 'Ofertas Tarjeta Alkosto', type: 'plp', url: 'https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto' }, // 1.256
 
     // PLPs
