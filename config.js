@@ -62,7 +62,7 @@ module.exports = {
   ignoreCoveringSelectors: [],
 
   // Elemente vor dem Screenshot ausblenden (Cookie-Banner, Popups).
-  hideSelectors: [],
+  hideSelectors: ['#js-cookie-notification', '.js-cookie-notification'],
 
   // Wie viele Bildschirmhöhen pro Seite auf verdeckten Text gescannt werden
   textScanScreens: 3,
