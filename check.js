@@ -183,6 +183,8 @@ const sev = (i) => ({ high: 0, medium: 1, low: 2 }[i.severity] ?? 3);
     newHigh: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'high' && i.isNew).length, 0),
     newMedium: results.reduce((s, r) => s + r.issues.filter((i) => i.severity === 'medium' && i.isNew).length, 0),
     firstRun: !prev,
+    runId: process.env.GITHUB_RUN_ID || null,
+    only: process.env.ONLY || null,
   };
   fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ summary, results }, null, 2));
   writeReport(path.join(OUT, 'index.html'), summary, results, config);
