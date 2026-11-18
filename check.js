@@ -194,6 +194,7 @@ const sev = (i) => ({ high: 0, medium: 1, low: 2 }[i.severity] ?? 3);
     lines.push(`| ${i.severity === 'high' ? '🔴' : '🟠'}${i.isNew && !summary.firstRun ? ' 🆕' : ''} | ${r.page} | ${r.viewport} | ${i.message.replace(/\|/g, '/')} |`);
   }
   console.log('\nBefunde:\n' + lines.join('\n'));
+  if (process.env.DEBUG) for (const r of results) for (const i of r.issues) if (i.debug) console.log(`DEBUG ${r.page} @ ${r.viewport}: ${i.debug}`);
   if (process.env.GITHUB_STEP_SUMMARY) {
     fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
       `## Visual Check: ${summary.newHigh} neue kritische · ${summary.high} kritisch · ${summary.medium} mittel · ${summary.low} niedrig\n\n` +

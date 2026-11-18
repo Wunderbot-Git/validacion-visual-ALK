@@ -10,6 +10,9 @@ on:
       only:
         description: 'Filter (Regex auf "Seite Auflösung"), z. B. PDP|quer'
         required: false
+      debug:
+        description: 'Debug-Ausgabe (1 = an)'
+        required: false
 
 permissions:
   contents: write
@@ -38,6 +41,7 @@ jobs:
           USER_AGENT: ${{ vars.USER_AGENT }}
           REPORT_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           ONLY: ${{ inputs.only }}
+          DEBUG: ${{ inputs.debug }}
         run: node check.js
 
       - uses: actions/cache/save@v4
