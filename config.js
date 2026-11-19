@@ -53,7 +53,7 @@ module.exports = {
   // Alternativ CSS-Selektor als String.
   criticalByType: {
     pdp:     { 'Produktname': 'h1', 'Preis': 'price', 'Agregar al carrito': 'addToCart' },
-    plp:     { 'Seitentitel': 'h1', 'Erster Preis': 'price' },
+    plp:     { 'Erster Preis': 'price' },   // Titel nicht kritisch: auf Black-Days-Landings steckt er absichtlich in der Hero-Grafik
     home:    { 'Suche': 'search' },
     landing: {},
   },
