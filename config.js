@@ -27,7 +27,10 @@ module.exports = {
     // Freidora Universal (8.753 Views) am 17.11. ausverkauft -> nächstes Top-Produkt
     { name: 'PDP Olla Hamilton Beach', type: 'pdp', url: 'https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240' }, // 2.688
     { name: 'PDP Honor Play 20', type: 'pdp', url: 'https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339' },                       // 3.644
-    { name: 'PDP TV Kalley 55', type: 'pdp', url: 'https://www.alkosto.com/tv-kalley-55-pulgadas-139-cm-55sb300-4k-uhd-smart-tv-linux/p/7705946480031' },  // 3.203
+    // TV Kalley 55 (3.203 Views am 16.11.) seit 19.11. ausverkauft -> meistbesuchter TV am 19.11.
+    { name: 'PDP TV TCL 55 C6K', type: 'pdp', url: 'https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438' }, // 3.967 (19.11.)
+    // Top-PDP am 19.11. (16.943 Views), digitales Produkt -> eigene PDP-Variante
+    { name: 'PDP GTA VI Voucher', type: 'pdp', url: 'https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314' },
     { name: 'PDP Redmi Note 17 Pro', type: 'pdp', url: 'https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549' }, // 2.843
     { name: 'PDP Asus TUF F16', type: 'pdp', url: 'https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834' }, // 1.978
     { name: 'PDP Nevecón Electrolux', type: 'pdp', url: 'https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831' }, // 1.151
