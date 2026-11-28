@@ -1,0 +1,2239 @@
+{
+  "summary": {
+    "startedAt": "2026-11-28T00:43:13.658Z",
+    "finishedAt": "2026-11-28T01:03:00.184Z",
+    "checks": 153,
+    "high": 0,
+    "medium": 0,
+    "low": 10,
+    "newHigh": 0,
+    "newMedium": 0,
+    "firstRun": false,
+    "runId": "46089327718",
+    "only": null
+  },
+  "results": [
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "home__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__iphone-14-hoch__top.png",
+        "diff": "shots/home__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.04641815530441123
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "home__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__iphone-14-quer__top.png",
+        "diff": "shots/home__iphone-14-quer__diff.png"
+      },
+      "diff": 0.10332664965366387
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "home__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__surface-duo-quer__top.png",
+        "diff": "shots/home__surface-duo-quer__diff.png"
+      },
+      "diff": 0.05739490971748573
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "home__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__android-quer__top.png",
+        "diff": "shots/home__android-quer__diff.png"
+      },
+      "diff": 0.06516260809592021
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "home__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__android-hoch__top.png",
+        "diff": "shots/home__android-hoch__diff.png"
+      },
+      "diff": 0.024383256406175394
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "home__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__ipad-hoch__top.png",
+        "diff": "shots/home__ipad-hoch__diff.png"
+      },
+      "diff": 0.03905359903971354
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "home__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__ipad-quer__top.png",
+        "diff": "shots/home__ipad-quer__diff.png"
+      },
+      "diff": 0.08836619059244792
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "home__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__laptop__top.png",
+        "diff": "shots/home__laptop__diff.png"
+      },
+      "diff": 0.07025390625
+    },
+    {
+      "page": "Home",
+      "url": "https://www.alkosto.com/",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "home__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/home__desktop__top.png",
+        "diff": "shots/home__desktop__diff.png"
+      },
+      "diff": 0.05824074074074074
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "ofertas__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__iphone-14-hoch__top.png",
+        "diff": "shots/ofertas__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.00016101591930975818
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "ofertas__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__iphone-14-quer__top.png",
+        "diff": "shots/ofertas__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "ofertas__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__surface-duo-quer__top.png",
+        "diff": "shots/ofertas__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "ofertas__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__android-quer__top.png",
+        "diff": "shots/ofertas__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "ofertas__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__android-hoch__top.png",
+        "diff": "shots/ofertas__android-hoch__diff.png"
+      },
+      "diff": 0.0002069075282508356
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "ofertas__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__ipad-hoch__top.png",
+        "diff": "shots/ofertas__ipad-hoch__diff.png"
+      },
+      "diff": 0.00009918212890625
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "ofertas__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__ipad-quer__top.png",
+        "diff": "shots/ofertas__ipad-quer__diff.png"
+      },
+      "diff": 0.0014775594075520833
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "ofertas__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__laptop__top.png",
+        "diff": "shots/ofertas__laptop__diff.png"
+      },
+      "diff": 0.0071591796875
+    },
+    {
+      "page": "Ofertas",
+      "url": "https://www.alkosto.com/ofertas/c/ofertas",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "ofertas__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas__desktop__top.png",
+        "diff": "shots/ofertas__desktop__diff.png"
+      },
+      "diff": 0.0021342592592592594
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "black-days__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__iphone-14-hoch__top.png",
+        "diff": "shots/black-days__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.00016101591930975818
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "black-days__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__iphone-14-quer__top.png",
+        "diff": "shots/black-days__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "black-days__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__surface-duo-quer__top.png",
+        "diff": "shots/black-days__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "black-days__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__android-quer__top.png",
+        "diff": "shots/black-days__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "black-days__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__android-hoch__top.png",
+        "diff": "shots/black-days__android-hoch__diff.png"
+      },
+      "diff": 0.0002069075282508356
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "black-days__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__ipad-hoch__top.png",
+        "diff": "shots/black-days__ipad-hoch__diff.png"
+      },
+      "diff": 0.00009409586588541667
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "black-days__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__ipad-quer__top.png",
+        "diff": "shots/black-days__ipad-quer__diff.png"
+      },
+      "diff": 0.00128173828125
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "black-days__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__laptop__top.png",
+        "diff": "shots/black-days__laptop__diff.png"
+      },
+      "diff": 0.002322265625
+    },
+    {
+      "page": "Black Days",
+      "url": "https://www.alkosto.com/temporadas/blackdays/c/blackdays",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "black-days__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/black-days__desktop__top.png",
+        "diff": "shots/black-days__desktop__diff.png"
+      },
+      "diff": 0.0013256172839506172
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "ofertas-tarjeta-alkosto__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__iphone-14-hoch__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.19495382184955645
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "ofertas-tarjeta-alkosto__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__iphone-14-quer__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__iphone-14-quer__diff.png"
+      },
+      "diff": 0.07016040831206707
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "ofertas-tarjeta-alkosto__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__surface-duo-quer__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__surface-duo-quer__diff.png"
+      },
+      "diff": 0.13409017482140934
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "ofertas-tarjeta-alkosto__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__android-quer__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__android-quer__diff.png"
+      },
+      "diff": 0.1663244734468672
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "ofertas-tarjeta-alkosto__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__android-hoch__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__android-hoch__diff.png"
+      },
+      "diff": 0.17809698127221604
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "ofertas-tarjeta-alkosto__ipad-hoch",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "visual-diff",
+          "label": "Bildvergleich",
+          "message": "40% des oberen Bildschirms anders als beim letzten Lauf",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__ipad-hoch__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__ipad-hoch__diff.png"
+      },
+      "diff": 0.40268707275390625
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "ofertas-tarjeta-alkosto__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__ipad-quer__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__ipad-quer__diff.png"
+      },
+      "diff": 0.11802037556966145
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "ofertas-tarjeta-alkosto__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__laptop__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__laptop__diff.png"
+      },
+      "diff": 0.0001005859375
+    },
+    {
+      "page": "Ofertas Tarjeta Alkosto",
+      "url": "https://www.alkosto.com/ofertas-medios-pago/ofertas-tarjeta-alkosto/c/ofertas-tarjeta-alkosto",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "ofertas-tarjeta-alkosto__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/ofertas-tarjeta-alkosto__desktop__top.png",
+        "diff": "shots/ofertas-tarjeta-alkosto__desktop__diff.png"
+      },
+      "diff": 0.004953703703703704
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "plp-smartphones__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__iphone-14-hoch__top.png",
+        "diff": "shots/plp-smartphones__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.14251427877020295
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "plp-smartphones__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__iphone-14-quer__top.png",
+        "diff": "shots/plp-smartphones__iphone-14-quer__diff.png"
+      },
+      "diff": 0.06303925142787702
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "plp-smartphones__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__surface-duo-quer__top.png",
+        "diff": "shots/plp-smartphones__surface-duo-quer__diff.png"
+      },
+      "diff": 0.1092203036938651
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "plp-smartphones__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__android-quer__top.png",
+        "diff": "shots/plp-smartphones__android-quer__diff.png"
+      },
+      "diff": 0.038938405220436095
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "plp-smartphones__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__android-hoch__top.png",
+        "diff": "shots/plp-smartphones__android-hoch__diff.png"
+      },
+      "diff": 0.10475622048915062
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "plp-smartphones__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__ipad-hoch__top.png",
+        "diff": "shots/plp-smartphones__ipad-hoch__diff.png"
+      },
+      "diff": 0.0485992431640625
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "plp-smartphones__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__ipad-quer__top.png",
+        "diff": "shots/plp-smartphones__ipad-quer__diff.png"
+      },
+      "diff": 0.08875274658203125
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "plp-smartphones__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__laptop__top.png",
+        "diff": "shots/plp-smartphones__laptop__diff.png"
+      },
+      "diff": 0.0909375
+    },
+    {
+      "page": "PLP Smartphones",
+      "url": "https://www.alkosto.com/celulares/smartphones/c/BI_101_ALKOS",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "plp-smartphones__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smartphones__desktop__top.png",
+        "diff": "shots/plp-smartphones__desktop__diff.png"
+      },
+      "diff": 0.09440354938271604
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "plp-smart-tv__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__iphone-14-hoch__top.png",
+        "diff": "shots/plp-smart-tv__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.19404848705796574
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "plp-smart-tv__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__iphone-14-quer__top.png",
+        "diff": "shots/plp-smart-tv__iphone-14-quer__diff.png"
+      },
+      "diff": 0.054262364807388504
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "plp-smart-tv__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__surface-duo-quer__top.png",
+        "diff": "shots/plp-smart-tv__surface-duo-quer__diff.png"
+      },
+      "diff": 0.10139282765552644
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "plp-smart-tv__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__android-quer__top.png",
+        "diff": "shots/plp-smart-tv__android-quer__diff.png"
+      },
+      "diff": 0.06402726935115921
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "plp-smart-tv__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__android-hoch__top.png",
+        "diff": "shots/plp-smart-tv__android-hoch__diff.png"
+      },
+      "diff": 0.009793623003872884
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "plp-smart-tv__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__ipad-hoch__top.png",
+        "diff": "shots/plp-smart-tv__ipad-hoch__diff.png"
+      },
+      "diff": 0.000050862630208333336
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "plp-smart-tv__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__ipad-quer__top.png",
+        "diff": "shots/plp-smart-tv__ipad-quer__diff.png"
+      },
+      "diff": 0.001628875732421875
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "plp-smart-tv__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__laptop__top.png",
+        "diff": "shots/plp-smart-tv__laptop__diff.png"
+      },
+      "diff": 0.1842099609375
+    },
+    {
+      "page": "PLP Smart TV",
+      "url": "https://www.alkosto.com/tv/smart-tv/c/BI_120_ALKOS",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "plp-smart-tv__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-smart-tv__desktop__top.png",
+        "diff": "shots/plp-smart-tv__desktop__diff.png"
+      },
+      "diff": 0.11675771604938272
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "plp-pequen-os-electro__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__iphone-14-hoch__top.png",
+        "diff": "shots/plp-pequen-os-electro__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "plp-pequen-os-electro__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__iphone-14-quer__top.png",
+        "diff": "shots/plp-pequen-os-electro__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "plp-pequen-os-electro__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__surface-duo-quer__top.png",
+        "diff": "shots/plp-pequen-os-electro__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "plp-pequen-os-electro__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__android-quer__top.png",
+        "diff": "shots/plp-pequen-os-electro__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "plp-pequen-os-electro__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__android-hoch__top.png",
+        "diff": "shots/plp-pequen-os-electro__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "plp-pequen-os-electro__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__ipad-hoch__top.png",
+        "diff": "shots/plp-pequen-os-electro__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "plp-pequen-os-electro__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__ipad-quer__top.png",
+        "diff": "shots/plp-pequen-os-electro__ipad-quer__diff.png"
+      },
+      "diff": 0.0064239501953125
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "plp-pequen-os-electro__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__laptop__top.png",
+        "diff": "shots/plp-pequen-os-electro__laptop__diff.png"
+      },
+      "diff": 0.0051083984375
+    },
+    {
+      "page": "PLP Pequeños electro",
+      "url": "https://www.alkosto.com/electrodomesticos/pequenos-electrodomesticos/c/BI_150_ALKOS",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "plp-pequen-os-electro__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-pequen-os-electro__desktop__top.png",
+        "diff": "shots/plp-pequen-os-electro__desktop__diff.png"
+      },
+      "diff": 0.0045925925925925926
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "plp-neveras__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__iphone-14-hoch__top.png",
+        "diff": "shots/plp-neveras__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.061975938753189935
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "plp-neveras__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__iphone-14-quer__top.png",
+        "diff": "shots/plp-neveras__iphone-14-quer__diff.png"
+      },
+      "diff": 0.03676023818203913
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "plp-neveras__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__surface-duo-quer__top.png",
+        "diff": "shots/plp-neveras__surface-duo-quer__diff.png"
+      },
+      "diff": 0.043515094949204865
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "plp-neveras__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__android-quer__top.png",
+        "diff": "shots/plp-neveras__android-quer__diff.png"
+      },
+      "diff": 0.06385484641095018
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "plp-neveras__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__android-hoch__top.png",
+        "diff": "shots/plp-neveras__android-hoch__diff.png"
+      },
+      "diff": 0.05921799564963658
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "plp-neveras__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__ipad-hoch__top.png",
+        "diff": "shots/plp-neveras__ipad-hoch__diff.png"
+      },
+      "diff": 0.033447265625
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "plp-neveras__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__ipad-quer__top.png",
+        "diff": "shots/plp-neveras__ipad-quer__diff.png"
+      },
+      "diff": 0.0036023457845052085
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "plp-neveras__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__laptop__top.png",
+        "diff": "shots/plp-neveras__laptop__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PLP Neveras",
+      "url": "https://www.alkosto.com/electrodomesticos/refrigeracion/neveras/c/BI_0583_ALKOS",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "plp-neveras__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-neveras__desktop__top.png",
+        "diff": "shots/plp-neveras__desktop__diff.png"
+      },
+      "diff": 0.06880864197530864
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "plp-porta-tiles__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__iphone-14-hoch__top.png",
+        "diff": "shots/plp-porta-tiles__iphone-14-hoch__diff.png"
+      },
+      "diff": 0.058858913598250094
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "plp-porta-tiles__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__iphone-14-quer__top.png",
+        "diff": "shots/plp-porta-tiles__iphone-14-quer__diff.png"
+      },
+      "diff": 0.05048912383035606
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "plp-porta-tiles__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__surface-duo-quer__top.png",
+        "diff": "shots/plp-porta-tiles__surface-duo-quer__diff.png"
+      },
+      "diff": 0.06142262268011631
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "plp-porta-tiles__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__android-quer__top.png",
+        "diff": "shots/plp-porta-tiles__android-quer__diff.png"
+      },
+      "diff": 0.05877765398694891
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "plp-porta-tiles__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__android-hoch__top.png",
+        "diff": "shots/plp-porta-tiles__android-hoch__diff.png"
+      },
+      "diff": 0.05177728261446231
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "plp-porta-tiles__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__ipad-hoch__top.png",
+        "diff": "shots/plp-porta-tiles__ipad-hoch__diff.png"
+      },
+      "diff": 0.042236328125
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "plp-porta-tiles__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__ipad-quer__top.png",
+        "diff": "shots/plp-porta-tiles__ipad-quer__diff.png"
+      },
+      "diff": 0.08881123860677083
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "plp-porta-tiles__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__laptop__top.png",
+        "diff": "shots/plp-porta-tiles__laptop__diff.png"
+      },
+      "diff": 0.034708984375
+    },
+    {
+      "page": "PLP Portátiles",
+      "url": "https://www.alkosto.com/computadores-tablet/computadores-portatiles/c/BI_104_ALKOS",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "plp-porta-tiles__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/plp-porta-tiles__desktop__top.png",
+        "diff": "shots/plp-porta-tiles__desktop__diff.png"
+      },
+      "diff": 0.06257716049382717
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-olla-hamilton-beach__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-olla-hamilton-beach__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__iphone-14-quer__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-olla-hamilton-beach__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__surface-duo-quer__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-olla-hamilton-beach__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__android-quer__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-olla-hamilton-beach__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__android-hoch__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__android-hoch__diff.png"
+      },
+      "diff": 0.000015915963711602737
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-olla-hamilton-beach__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__ipad-hoch__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-olla-hamilton-beach__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__ipad-quer__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__ipad-quer__diff.png"
+      },
+      "diff": 0.005985260009765625
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-olla-hamilton-beach__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__laptop__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__laptop__diff.png"
+      },
+      "diff": 0.0009208984375
+    },
+    {
+      "page": "PDP Olla Hamilton Beach",
+      "url": "https://www.alkosto.com/olla-multifuncional-compacta-hamilton-beach-14-litros/p/040094375240",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-olla-hamilton-beach__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-olla-hamilton-beach__desktop__top.png",
+        "diff": "shots/pdp-olla-hamilton-beach__desktop__diff.png"
+      },
+      "diff": 0.00024151234567901234
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-honor-play-20__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-honor-play-20__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-honor-play-20__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__iphone-14-quer__top.png",
+        "diff": "shots/pdp-honor-play-20__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-honor-play-20__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__surface-duo-quer__top.png",
+        "diff": "shots/pdp-honor-play-20__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-honor-play-20__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__android-quer__top.png",
+        "diff": "shots/pdp-honor-play-20__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-honor-play-20__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__android-hoch__top.png",
+        "diff": "shots/pdp-honor-play-20__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-honor-play-20__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__ipad-hoch__top.png",
+        "diff": "shots/pdp-honor-play-20__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-honor-play-20__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__ipad-quer__top.png",
+        "diff": "shots/pdp-honor-play-20__ipad-quer__diff.png"
+      },
+      "diff": 0.0033111572265625
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-honor-play-20__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__laptop__top.png",
+        "diff": "shots/pdp-honor-play-20__laptop__diff.png"
+      },
+      "diff": 0.0015185546875
+    },
+    {
+      "page": "PDP Honor Play 20",
+      "url": "https://www.alkosto.com/celular-honor-play-20-128gb-4g-azul/p/6942785109339",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-honor-play-20__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-honor-play-20__desktop__top.png",
+        "diff": "shots/pdp-honor-play-20__desktop__diff.png"
+      },
+      "diff": 0.0006296296296296296
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-tv-tcl-55-c6k__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-tv-tcl-55-c6k__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__iphone-14-quer__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-tv-tcl-55-c6k__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__surface-duo-quer__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-tv-tcl-55-c6k__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__android-quer__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-tv-tcl-55-c6k__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__android-hoch__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-tv-tcl-55-c6k__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__ipad-hoch__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-tv-tcl-55-c6k__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__ipad-quer__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__ipad-quer__diff.png"
+      },
+      "diff": 0.006440480550130208
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-tv-tcl-55-c6k__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__laptop__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__laptop__diff.png"
+      },
+      "diff": 0.0012744140625
+    },
+    {
+      "page": "PDP TV TCL 55 C6K",
+      "url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55c6k-4k-uhd-qd-mini-led-smart/p/6921732845438",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-tv-tcl-55-c6k__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-tv-tcl-55-c6k__desktop__top.png",
+        "diff": "shots/pdp-tv-tcl-55-c6k__desktop__diff.png"
+      },
+      "diff": 0.0008333333333333334
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-gta-vi-voucher__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-gta-vi-voucher__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__iphone-14-quer__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-gta-vi-voucher__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__surface-duo-quer__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-gta-vi-voucher__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__android-quer__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-gta-vi-voucher__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__android-hoch__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-gta-vi-voucher__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__ipad-hoch__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-gta-vi-voucher__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__ipad-quer__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__ipad-quer__diff.png"
+      },
+      "diff": 0.008710225423177084
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-gta-vi-voucher__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__laptop__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__laptop__diff.png"
+      },
+      "diff": 0.0015068359375
+    },
+    {
+      "page": "PDP GTA VI Voucher",
+      "url": "https://www.alkosto.com/juego-ps5-grand-theft-auto-vi-gta-6-voucher/p/710425676314",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-gta-vi-voucher__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-gta-vi-voucher__desktop__top.png",
+        "diff": "shots/pdp-gta-vi-voucher__desktop__diff.png"
+      },
+      "diff": 0.0005208333333333333
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-redmi-note-17-pro__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-redmi-note-17-pro__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__iphone-14-quer__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-redmi-note-17-pro__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__surface-duo-quer__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-redmi-note-17-pro__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__android-quer__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-redmi-note-17-pro__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__android-hoch__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-redmi-note-17-pro__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__ipad-hoch__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-redmi-note-17-pro__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__ipad-quer__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__ipad-quer__diff.png"
+      },
+      "diff": 0.005399068196614583
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-redmi-note-17-pro__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__laptop__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__laptop__diff.png"
+      },
+      "diff": 0.0017197265625
+    },
+    {
+      "page": "PDP Redmi Note 17 Pro",
+      "url": "https://www.alkosto.com/celular-redmi-note-17-pro-256gb-5g-azul-ram-6gb-bateria/p/6939093010549",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-redmi-note-17-pro__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-redmi-note-17-pro__desktop__top.png",
+        "diff": "shots/pdp-redmi-note-17-pro__desktop__diff.png"
+      },
+      "diff": 0.0018387345679012346
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-asus-tuf-f16__iphone-14-hoch",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-asus-tuf-f16__iphone-14-quer",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__iphone-14-quer__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-asus-tuf-f16__surface-duo-quer",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__surface-duo-quer__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-asus-tuf-f16__android-quer",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__android-quer__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-asus-tuf-f16__android-hoch",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__android-hoch__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-asus-tuf-f16__ipad-hoch",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__ipad-hoch__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-asus-tuf-f16__ipad-quer",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__ipad-quer__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__ipad-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-asus-tuf-f16__laptop",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__laptop__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__laptop__diff.png"
+      },
+      "diff": 0.0007958984375
+    },
+    {
+      "page": "PDP Asus TUF F16",
+      "url": "https://www.alkosto.com/computador-portatil-gamer-asus-tuf-f16-fx607vjr-intel-core/p/4711636623834",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-asus-tuf-f16__desktop",
+      "issues": [
+        {
+          "severity": "low",
+          "type": "sold-out",
+          "label": "Produkt",
+          "message": "Produkt ausverkauft – Preis/CTA nicht geprüft (PDP in config.js tauschen)",
+          "isNew": false
+        }
+      ],
+      "shots": {
+        "top": "shots/pdp-asus-tuf-f16__desktop__top.png",
+        "diff": "shots/pdp-asus-tuf-f16__desktop__diff.png"
+      },
+      "diff": 0.0008209876543209876
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-neveco-n-electrolux__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-neveco-n-electrolux__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__iphone-14-quer__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-neveco-n-electrolux__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__surface-duo-quer__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-neveco-n-electrolux__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__android-quer__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-neveco-n-electrolux__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__android-hoch__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-neveco-n-electrolux__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__ipad-hoch__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-neveco-n-electrolux__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__ipad-quer__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__ipad-quer__diff.png"
+      },
+      "diff": 0.00815582275390625
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-neveco-n-electrolux__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__laptop__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__laptop__diff.png"
+      },
+      "diff": 0.0004384765625
+    },
+    {
+      "page": "PDP Nevecón Electrolux",
+      "url": "https://www.alkosto.com/nevecon-electrolux-side-by-side-423-litros-ers45f3c5eb/p/7909569483831",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-neveco-n-electrolux__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-neveco-n-electrolux__desktop__top.png",
+        "diff": "shots/pdp-neveco-n-electrolux__desktop__diff.png"
+      },
+      "diff": 0.0001859567901234568
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "iPhone 14 hoch",
+      "size": "390×844",
+      "engine": "webkit",
+      "key": "pdp-nevera-mabe-394l__iphone-14-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__iphone-14-hoch__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__iphone-14-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "iPhone 14 quer",
+      "size": "844×390",
+      "engine": "webkit",
+      "key": "pdp-nevera-mabe-394l__iphone-14-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__iphone-14-quer__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__iphone-14-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "Surface Duo quer",
+      "size": "890×626",
+      "engine": "chromium",
+      "key": "pdp-nevera-mabe-394l__surface-duo-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__surface-duo-quer__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__surface-duo-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "Android quer",
+      "size": "915×412",
+      "engine": "chromium",
+      "key": "pdp-nevera-mabe-394l__android-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__android-quer__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__android-quer__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "Android hoch",
+      "size": "412×915",
+      "engine": "chromium",
+      "key": "pdp-nevera-mabe-394l__android-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__android-hoch__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__android-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "iPad hoch",
+      "size": "768×1024",
+      "engine": "webkit",
+      "key": "pdp-nevera-mabe-394l__ipad-hoch",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__ipad-hoch__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__ipad-hoch__diff.png"
+      },
+      "diff": 0
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "iPad quer",
+      "size": "1024×768",
+      "engine": "webkit",
+      "key": "pdp-nevera-mabe-394l__ipad-quer",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__ipad-quer__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__ipad-quer__diff.png"
+      },
+      "diff": 0.0037549336751302085
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "Laptop",
+      "size": "1280×800",
+      "engine": "chromium",
+      "key": "pdp-nevera-mabe-394l__laptop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__laptop__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__laptop__diff.png"
+      },
+      "diff": 0.002033203125
+    },
+    {
+      "page": "PDP Nevera Mabe 394L",
+      "url": "https://www.alkosto.com/nevera-mabe-no-frost-congelador-superior-394-litros/p/7704712454955",
+      "viewport": "Desktop",
+      "size": "1440×900",
+      "engine": "chromium",
+      "key": "pdp-nevera-mabe-394l__desktop",
+      "issues": [],
+      "shots": {
+        "top": "shots/pdp-nevera-mabe-394l__desktop__top.png",
+        "diff": "shots/pdp-nevera-mabe-394l__desktop__diff.png"
+      },
+      "diff": 0.00011805555555555556
+    }
+  ]
+}
